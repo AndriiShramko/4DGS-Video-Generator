@@ -324,7 +324,25 @@ The application uses detailed logging:
 
 ## 📝 License
 
-See [LICENSE](LICENSE) file for details.
+### Application Code
+
+See [LICENSE](LICENSE) file for details (MIT License).
+
+### Apple SHARP Model License
+
+**⚠️ CRITICAL**: The Apple SHARP model has **non-commercial license restrictions**.
+
+See [LICENSE_NOTICE.md](LICENSE_NOTICE.md) for detailed information about license restrictions.
+
+**Key Points:**
+- Model is licensed for **research and educational purposes only**
+- **Commercial use is PROHIBITED**
+- Application code (your code) can be commercial, but using SHARP model makes it non-commercial
+- See `ml-sharp/LICENSE_MODEL` for full terms
+
+**For commercial projects:**
+- Do not use Apple SHARP model
+- Train your own model or use alternative models with commercial licenses
 
 ---
 

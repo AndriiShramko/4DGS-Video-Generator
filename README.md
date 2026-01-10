@@ -266,9 +266,48 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Application Code
 
-The SHARP model is licensed separately - see `ml-sharp/LICENSE_MODEL` for details.
+This application code (video_app.py, video_processor.py, etc.) is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### Apple SHARP Model - IMPORTANT LICENSE RESTRICTIONS
+
+**⚠️ CRITICAL: The Apple SHARP model has STRICT non-commercial license restrictions.**
+
+The SHARP model (`ml-sharp/`) is licensed separately under the **Apple Machine Learning Research Model License**. See `ml-sharp/LICENSE_MODEL` for full details.
+
+#### Key License Restrictions:
+
+- ✅ **ALLOWED**: Non-commercial scientific research and academic development
+- ✅ **ALLOWED**: Open-source research projects
+- ✅ **ALLOWED**: Educational purposes
+
+- ❌ **PROHIBITED**: Commercial exploitation
+- ❌ **PROHIBITED**: Use in commercial products or services
+- ❌ **PROHIBITED**: Product development for commercial use
+- ❌ **PROHIBITED**: Selling services or products that use the SHARP model
+
+#### What This Means:
+
+**You CAN:**
+- Use this application for research and educational purposes
+- Develop open-source tools using the SHARP model
+- Share research results
+
+**You CANNOT:**
+- Sell commercial products or services that use the SHARP model
+- Use this in commercial projects for clients
+- Offer paid services based on the SHARP model
+- Include the SHARP model in commercial software
+
+#### For Commercial Use:
+
+If you need commercial usage rights:
+1. Train your own model based on the methodology (without using SHARP weights)
+2. Use alternative models with commercial licenses
+3. Contact Apple directly for commercial licensing options
+
+**Full license text**: See `ml-sharp/LICENSE_MODEL` for complete terms and conditions.
 
 ## 🙏 Acknowledgments
 
