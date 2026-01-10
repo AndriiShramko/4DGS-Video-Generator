@@ -40,6 +40,18 @@ This is a complete, production-ready desktop application for generating high-qua
 - **GPU**: NVIDIA GPU with CUDA (optional but recommended)
 - **Disk Space**: ~5GB for application + space for results
 
+## ⚠️ Important: License Notice
+
+**Before using this application, please read**: [LICENSE_NOTICE.md](LICENSE_NOTICE.md)
+
+The Apple SHARP model included in this application is licensed for **non-commercial research purposes only**. Commercial use is **prohibited**. 
+
+**Summary:**
+- ✅ **ALLOWED**: Research, education, open-source projects
+- ❌ **PROHIBITED**: Commercial use, commercial products, paid services
+
+See [License Section](#-license) below for complete details.
+
 ## 🚀 Quick Start
 
 ### Option 1: Portable EXE (Recommended for End Users)
