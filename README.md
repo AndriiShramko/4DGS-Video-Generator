@@ -253,6 +253,32 @@ If you encounter out-of-memory errors:
 - Run as administrator if needed
 - Check that ~2GB free disk space available
 
+### SSL Certificate Error (Model Download Fails)
+
+If you see an SSL certificate error when the application tries to download the model:
+
+**Error message:**
+```
+Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed>
+```
+
+**Solution:**
+
+1. **Download the model manually:**
+   - URL: `https://ml-site.cdn-apple.com/models/sharp/sharp_2572gikvuh.pt`
+   - File size: ~1.5 GB
+
+2. **Save it to the PyTorch cache folder:**
+   - Windows: `C:\Users\<YOUR_USERNAME>\.cache\torch\hub\checkpoints\sharp_2572gikvuh.pt`
+   - macOS/Linux: `~/.cache/torch/hub/checkpoints/sharp_2572gikvuh.pt`
+   
+3. **Create the folder if needed:**
+   - Create the entire path `.cache\torch\hub\checkpoints\` if it doesn't exist
+
+4. **Restart the application**
+
+**Detailed instructions:** See [SSL_CERTIFICATE_FIX.md](SSL_CERTIFICATE_FIX.md) for step-by-step guide with screenshots and troubleshooting.
+
 ## 📊 Performance
 
 ### Benchmarks (RTX 4090, 24GB VRAM)
