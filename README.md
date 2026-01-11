@@ -56,10 +56,21 @@ See [License Section](#-license) below for complete details.
 
 ### Option 1: Portable EXE (Recommended for End Users)
 
-1. Download `AndriiShramko_4DGS_Generator.exe` from [Releases](../../releases)
-2. Run the EXE file (double-click)
-3. On first launch, the application will download the SHARP model (~1.5GB) - this may take time
-4. After model download, you're ready to use the application!
+**⚠️ IMPORTANT: You need BOTH files!**
+
+1. Download **both files** from [Releases](../../releases):
+   - `AndriiShramko_4DGS_Generator.exe` (~3.7 GB)
+   - `sharp_2572gikvuh.pt` (~2.6 GB)
+
+2. **Place both files in the SAME folder**
+
+3. Run the EXE file (double-click)
+
+4. The application will automatically find the model in the same folder
+
+**Note**: The model is NOT included in the EXE (too large for PyInstaller). Both files must be in the same directory.
+
+See [DISTRIBUTION_INSTRUCTIONS.md](DISTRIBUTION_INSTRUCTIONS.md) for detailed setup instructions.
 
 ### Option 2: Python Installation (For Developers)
 
