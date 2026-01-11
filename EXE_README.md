@@ -6,18 +6,26 @@ The EXE version is a standalone application that requires **no Python installati
 
 ## 🚀 Installation
 
-1. Download `AndriiShramko_4DGS_Generator.exe` from [Releases](../../releases)
-2. Place the EXE file in any folder
-3. Double-click to run
+**⚠️ IMPORTANT: You need BOTH files!**
+
+1. Download **both files** from [Releases](../../releases):
+   - `AndriiShramko_4DGS_Generator.exe` (~3.7 GB)
+   - `sharp_2572gikvuh.pt` (~2.6 GB)
+
+2. **Place both files in the SAME folder**
+
+3. Double-click `AndriiShramko_4DGS_Generator.exe` to run
 
 ## ⚙️ First Launch
 
 On first launch, the application will:
 1. Extract temporary files (may take 1-2 minutes)
-2. Download the SHARP model checkpoint (~1.5 GB) - **requires internet connection**
-3. Save the model locally for future use
+2. Automatically find the model file in the same folder
+3. Load the model and be ready to use
 
-**Note**: First launch may take 10-15 minutes depending on your internet speed.
+**Note**: The model is NOT included in the EXE. Both files must be in the same directory.
+
+See [DISTRIBUTION_INSTRUCTIONS.md](DISTRIBUTION_INSTRUCTIONS.md) for complete setup guide.
 
 ## 📋 System Requirements
 
