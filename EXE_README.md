@@ -47,7 +47,20 @@ Settings are saved in `settings.json` in the same folder as the EXE:
 3. **Run as Administrator**: Try right-click → Run as administrator
 4. **Disk space**: Ensure ~5GB free space available
 
-### Model Download Fails
+### Model Download Fails / SSL Certificate Error
+
+**If you see SSL certificate error:**
+
+1. **Download model manually:**
+   - URL: `https://ml-site.cdn-apple.com/models/sharp/sharp_2572gikvuh.pt`
+   - Save to: `C:\Users\<YOUR_USERNAME>\.cache\torch\hub\checkpoints\sharp_2572gikvuh.pt`
+   - Create folder if needed: `.cache\torch\hub\checkpoints\`
+
+2. **Restart application**
+
+**Detailed fix:** See [SSL_CERTIFICATE_FIX.md](SSL_CERTIFICATE_FIX.md)
+
+**Other download issues:**
 
 1. **Internet connection**: Check your connection
 2. **Firewall**: May block download - check firewall settings
