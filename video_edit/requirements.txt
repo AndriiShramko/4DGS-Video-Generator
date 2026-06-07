@@ -1,0 +1,31 @@
+# Python deps for the local video-editing pipeline.
+# NOTE: torch / torchvision are installed separately by install.sh from the
+# CUDA 12.8 (sm_120 / Blackwell) nightly index — do NOT pin them here, or pip
+# will pull a CPU/stable build that fails on the RTX PRO 6000.
+
+# Diffusion / model stack
+diffusers>=0.35.2
+transformers>=4.57.0
+accelerate>=1.2.0
+safetensors>=0.4.5
+huggingface_hub>=0.27.0
+tokenizers>=0.21.0
+einops>=0.8.0
+omegaconf>=2.3.0
+sentencepiece>=0.2.0
+
+# Video I/O
+imageio>=2.36.0
+imageio-ffmpeg>=0.5.1
+av>=13.0.0
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
+Pillow>=10.4.0
+
+# Utilities
+tqdm>=4.66.0
+ftfy>=6.2.0
+regex>=2024.9.0
+
+# Optional prompt enhancement (used by some backends with --enhance-prompt)
+# openai>=1.50.0

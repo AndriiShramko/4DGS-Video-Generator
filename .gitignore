@@ -54,3 +54,11 @@ dist/
 *.ckpt
 __pycache__/
 
+# video_edit pipeline (large/cloned artifacts — never commit)
+video_edit/venv/
+video_edit/vendor/
+video_edit/weights/
+video_edit/outputs/
+video_edit/compare/
+*.safetensors
+
